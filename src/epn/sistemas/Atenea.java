@@ -5,6 +5,8 @@ public class Atenea extends SistemaEPN implements IAccion {
     private String estadosolicitud;
     private float costocertificado;
 
+    
+
     @Override
     public boolean on() {
         System.out.println("Encendiendo Atenea");

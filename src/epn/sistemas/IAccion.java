@@ -1,7 +1,7 @@
 package epn.sistemas;
 
-public class IAccion {
+public interface IAccion {
     public boolean on();
-    
-
+    public boolean off();
 }
+
